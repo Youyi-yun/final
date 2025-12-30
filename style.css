@@ -1,16 +1,16 @@
 body {
   margin: 0;
-  height: 100vh;
-
+  min-height: 100vh; 
   display: flex;
   justify-content: center;
   align-items: center;
-
-  background-image: url("https://media.discordapp.net/attachments/1311941604428349442/1455599274153873553/W.png?ex=69554ff6&is=6953fe76&hm=8094fef654ee7423da1a4efb43f1446240f4e6b915c1d7dd32c5169203c15f1f&=&format=webp&quality=lossless&width=960&height=960");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url('https://media.discordapp.net/attachments/1311941604428349442/1455599274153873553/W.png?ex=69554ff6&is=6953fe76&hm=8094fef654ee7423da1a4efb43f1446240f4e6b915c1d7dd32c5169203c15f1f&=&format=webp&quality=lossless&width=960&height=960');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
   color: white;
+  padding: 40px 0; 
+  overflow-y: auto; 
 }
 
 #container {
@@ -18,7 +18,6 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 30px;
-  padding: 40px 20px;
 }
 
 .main-title {
